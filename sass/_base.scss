@@ -1,0 +1,36 @@
+// COLOR VARIABLES
+$color-primary: #fd9644;
+$color-primary-dark: #fa8231;
+
+$color-secondary: #101d2c;
+
+$color-grey-light-1: #d1d8e0;
+$color-grey-light-2: #a5b1c2;
+
+$color-yellow-light-1: #fed330;
+$color-yellow-light-2: #f7b731;
+
+// FONT VARIABLES
+$font-primary: "Poppins", sans-serif;
+
+//  RESPONSIVE BREAKPOINTS
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-primary;
+  color: $color-yellow-light-2;
+  font-weight: 300;
+  line-height: 1.6;
+}
