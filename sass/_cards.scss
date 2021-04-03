@@ -1,39 +1,48 @@
+.sport {
+  grid-column: 1 / -1;
+  margin: 1.5rem 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
 .cards {
+  grid-column: 1 / -1;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: center;
-  align-items: center;
+  //align-content: center;
+  //align-items: center;
   gap: 1rem;
-}
 
-.cards__single {
-  background: $color-yellow-light-2;
-  display: flex;
-  flex-direction: column;
-  margin-top: 2rem;
-  border-radius: 1.6rem;
-  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-}
+  &__single {
+    background: $color-yellow-light-2;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    border-radius: 1.6rem;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
 
-.cards__image {
-  text-align: center;
-  width: 100%;
-  border-radius: 1.6rem;
-}
+  &__image {
+    text-align: center;
+    width: 100%;
+    border-radius: 1.6rem;
+  }
 
-.cards__name,
-.cards__text {
-  color: $color-grey-light-3;
-}
+  &__name,
+  &__text {
+    color: $color-grey-light-3;
+  }
 
-.cards__front img {
-  margin: 0;
-  height: 25rem;
+  &__front img {
+    margin: 0;
+    height: 25rem;
+  }
 }
 
 ul {

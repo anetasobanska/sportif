@@ -1,18 +1,22 @@
 .header {
+  grid-column: 1 / -1;
   background-color: $color-yellow-light-1;
-}
 
-.nav__list {
-  display: flex;
-  justify-content: flex-end;
-}
-.nav__item {
-  margin: 5px;
-  list-style: none;
+  display: grid;
+  .nav {
+    &__list {
+      display: flex;
+      justify-content: flex-end;
+    }
+    &__item {
+      margin: 5px;
+      list-style: none;
 
-  svg {
-    width: 2.5rem;
-    height: 2.5rem;
-    margin-left: 1rem;
+      svg {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-left: 1rem;
+      }
+    }
   }
 }
