@@ -24,17 +24,17 @@
   }
 
   &__img--2 {
-    width: 90%;
-    grid-row: 4 / 6;
-    grid-column: 4 / 7;
-    z-index: 20;
+    width: 100%;
+    grid-row: 2 / 5;
+    grid-column: 4 / 6;
+    z-index: 21;
     box-shadow: 0 2rem 5rem rgba($color: #000000, $alpha: 0.2);
   }
 
   &__img--3 {
-    width: 70%;
-    grid-row: 4 / 6;
-    grid-column: 4 / 7;
+    width: 115%;
+    grid-row: 3 / 6;
+    grid-column: 5 / 7;
     z-index: 20;
     box-shadow: 0 2rem 5rem rgba($color: #000000, $alpha: 0.2);
   }
