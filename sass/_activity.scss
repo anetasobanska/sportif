@@ -3,11 +3,10 @@
     background-color: $color-primary;
     grid-column: 1 / 5;
     background-image: linear-gradient(
-        rgba($color-primary, 0.5),
-        rgba($color-primary, 0.5)
+        rgba($color-grey-light-1, 0.5),
+        rgba($color-grey-light-3, 0.5)
       ),
       url(../public/img/parc.jpg);
-    // ../public/img/parc.jpg
     background-size: cover;
 
     display: grid;
